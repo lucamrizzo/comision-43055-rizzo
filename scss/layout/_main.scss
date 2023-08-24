@@ -1,0 +1,103 @@
+
+  
+  .section-1 {
+    height: 100vh;
+    background-image: url(../assets/log1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  .div-main {
+    max-width: 37.5rem;
+    background-color: transparent;
+  
+    h2 {
+      color: white;
+      font-size: 3.125rem;
+      font-weight: 600;
+    }
+  
+    h3 {
+      font-size: 1.875rem;
+      font-weight: 600;
+      color: white;
+    }
+  
+    p {
+      font-size: 1.25rem;
+      color: white;
+    }
+  }
+  
+  .col-2 {
+    flex-grow: 2;
+  }
+  
+  .col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: .625rem;
+  }
+  
+  .form-container {
+    max-width: 60rem;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  form {
+    input {
+      width: 20rem;
+      height: 2.8125rem;
+      border-radius: .25rem;
+      text-align: center;
+      margin-top: 1.25rem;
+      margin-bottom: 2.5rem;
+      outline: none;
+      border: none;
+    }
+  
+    button {
+      background: transparent;
+      border: .125rem solid #fff;
+      color: #b58732;
+      border-radius: 1.875rem;
+      padding: .625rem 1.875rem;
+      font-size: .625rem;
+      cursor: pointer;
+    }
+  }
+  
+  .social-icons i {
+    font-size: 1.25rem;
+    margin: .625rem;
+    cursor: pointer;
+  }
+  
+  .grid-formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .map {
+    grid-column-start: 2;
+  }
+  
+  .mainform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
